@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#B75ECFD2"
+    android:backgroundTint="#0BEAD3"
+    android:foregroundTint="#8E24AA"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/temperatureIcon"
+        android:layout_width="136dp"
+        android:layout_height="98dp"
+        android:layout_below="@id/sensorDataTextView"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="69dp"
+        android:contentDescription="@string/temperature_icon"
+        android:src="@drawable/baseline_device_thermostat_24" />
+
+    <ImageView
+        android:id="@+id/humidityIcon"
+        android:layout_width="147dp"
+        android:layout_height="89dp"
+        android:layout_below="@id/sensorDataTextView"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="71dp"
+        android:contentDescription="@string/humidity_icon"
+        android:src="@drawable/baseline_cloud_24" />
+
+    <TextView
+        android:id="@+id/sensorDataTextView"
+        android:layout_width="300dp"
+        android:layout_height="56dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="40dp"
+        android:text="@string/iot_device_data"
+        android:textColor="#8E24AA"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/temp"
+        android:layout_width="141dp"
+        android:layout_height="68dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="271dp"
+        android:layout_marginEnd="243dp"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:autoSizeTextType="uniform" />
+
+    <TextView
+        android:id="@+id/humidity"
+        android:layout_width="131dp"
+        android:layout_height="74dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="274dp"
+        android:layout_marginEnd="27dp"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:autoSizeTextType="uniform" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="179dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginBottom="16dp"
+        android:background="#962C2C"
+        android:backgroundTint="#000304"
+        android:shadowColor="#43A047"
+        android:text="@string/irriguer"
+        android:textColorHighlight="#8E24AA"
+        android:textColorLink="#43A047"
+        android:visibility="visible"
+        app:rippleColor="#43A047"
+        app:strokeColor="#43A047"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="183dp"
+        android:layout_height="58dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="10dp"
+        android:text="Light" />
+
+</RelativeLayout>

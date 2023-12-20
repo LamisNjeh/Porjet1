@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "124668303280",
+    "project_id": "mimi-aae25",
+    "storage_bucket": "mimi-aae25.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:124668303280:android:37a07850b46228e7756875",
+        "android_client_info": {
+          "package_name": "com.example.project1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcwk79oqwHxA6vBzAkjLE7aprEoLILHbE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

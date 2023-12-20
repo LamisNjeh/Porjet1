@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Project1</string>
+    <string name="iot_device_data">IoT Device Data</string>
+    <string name="button">Button</string>
+    <string name="humidity_icon">Humidity Icon</string>
+    <string name="temperature_icon">Temperature Icon</string>
+    <string name="irriguer">Irriguer</string>
+    <string name="allumer_lumiere">Allumer lumiere</string>
+    <string name="todo">TODO</string>
+</resources>
